@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Greeting from "./Greeting";
 import Emojis from "./Emojis";
+import Calculator from "./Calculator";
 
 class App extends React.Component {
 
@@ -10,6 +11,7 @@ class App extends React.Component {
       <>
         <Greeting name="John" />
         <Emojis />
+        <Calculator />
       </>
       );
   }
