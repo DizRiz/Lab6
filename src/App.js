@@ -1,13 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Greeting from "./Greeting";
+import Emojis from "./Emojis";
 
 class App extends React.Component {
 
   render() {
     return (
       <>
-        <Greeting name="John"/>
+        <Greeting name="John" />
+        <Emojis />
       </>
       );
   }
