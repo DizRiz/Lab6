@@ -7,7 +7,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Greeting name="World"/>
+        <Greeting name="John"/>
       </>
       );
   }
